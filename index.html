@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multi Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1>Multi Calculator</h1>
+            <button class="menu-btn" id="menuBtn">☰</button>
+        </div>
+    </header>
+
+    <nav class="sidebar" id="sidebar">
+        <ul>
+            <li><a href="normal.html">Normal Calculator</a></li>
+            <li><a href="age.html">Age Calculator</a></li>
+            <li><a href="emi.html">EMI Calculator</a></li>
+            <li><a href="privacy.html">Privacy Policy</a></li>
+            <li><a href="about.html">About Us</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <div class="calculator-container">
+            <h2>Choose a Calculator</h2>
+            <div class="calculator-buttons">
+                <a href="normal.html" class="calc-btn">
+                    <i class="fas fa-calculator"></i>
+                    <span>Normal Calculator</span>
+                </a>
+                <a href="age.html" class="calc-btn">
+                    <i class="fas fa-birthday-cake"></i>
+                    <span>Age Calculator</span>
+                </a>
+                <a href="emi.html" class="calc-btn">
+                    <i class="fas fa-rupee-sign"></i>
+                    <span>EMI Calculator</span>
+                </a>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>Made with ❤️ by Yadav Subba</p>
+        <p>Copyright © <span id="year"></span> All rights reserved</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
